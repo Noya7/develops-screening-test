@@ -1,0 +1,29 @@
+.main {
+  box-sizing: border-box;
+  font-size: 1.75rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main:hover {
+  background-color: rgba(247, 255, 247, 0.6);
+}
+
+.main a {
+  width: 100%;
+  color: #292f36;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .main {
+    font-size: 1.25rem;
+    height: 2rem;
+  }
+
+  .main a {
+    padding: 0.25rem 0.5rem;
+  }
+}

@@ -4,11 +4,13 @@
   "description": "backend for the develops screening test by Valentin Noya",
   "main": "app.js",
   "scripts": {
-    "dev" : "nodemon app.js"
+    "start":"node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "Valentin Noya Montero",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.20.0"
   },
   "devDependencies": {

@@ -1,0 +1,21 @@
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #f7fff7;
+  box-shadow: 0px 14.23px 29.16px 0px rgba(0, 0, 0, 0.1);
+  font-family: "DM Sans", sans-serif;
+}
+
+.main a {
+  color: #292f36;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.main a:hover {
+  text-decoration: underline;
+}

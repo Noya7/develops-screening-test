@@ -1,0 +1,10 @@
+.main {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 5rem auto;
+  gap: 1rem;
+  overflow-y: auto;
+  background-color: #cdf3eb;
+}
